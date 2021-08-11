@@ -120,8 +120,57 @@ List of hyper-parameters:
 * apps: List of apps we want to classify.
 * features: List of features of each node used to classify.
 
-All experiments with MAppGraph presented in the paper
-
+##### All experiments with MAppGraph presented in the paper:
+*1. Impact of Number of Graph Nodes used to Train Models*
+<table>
+    <thead>
+        <tr>
+            <th>Duration-T (minutes)</th>
+            <th>N</th>
+            <th>t (seconds)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=7>5</td>
+            <td>7</td>
+            <td rowspan=5>10</td>
+        </tr>
+        <tr>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td rowspan=2>20</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td rowspan=4>20</td>
+            <td rowspan=4>10</td>
+        </tr>
+         <tr>
+            <td>3</td>
+        </tr>
+         <tr>
+            <td>2</td>
+        </tr>
+         <tr>
+            <td>1</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Publications
 
