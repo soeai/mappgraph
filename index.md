@@ -360,7 +360,7 @@ List of hyper-parameters:
 </table>
 
 Note: 
-* The list of 10, 20, 30, 40, 50, 60, 70, 80, 90, 101 apps are saved in apps_list.txt.
+* The list of 10, 20, 30, 40, 50, 60, 70, 80, 90, 101 apps are saved in https://github.com/soeai/MAppGraph/apps_list.txt.
 * The list of apps is chosen randomly from 101 apps.
 
 
