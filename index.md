@@ -8,6 +8,7 @@ We collect mobile traffic for 101 mobile apps. For each app, the number of times
 
 The mobile traffic is saved in folder named *source* as csv files. Inside this folder, there are 101 sub-folder. Each sub-folder represent for one app and contains mobile traffic of that app. Duration of mobile traffic in different files are different (min: 4.664 minutes, max: 465.7 minutes, mean: 101.573 minutes). The structure of source folder is showed as figure 1.
 
+![GitHub Logo](/images/source.png)
 
 ### Guide
 
