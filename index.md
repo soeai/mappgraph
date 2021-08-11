@@ -125,49 +125,34 @@ List of hyper-parameters:
 <table>
     <thead>
         <tr>
-            <th>Duration-T (minutes)</th>
             <th>N</th>
             <th>t (seconds)</th>
+            <th>k</th>
+            <th>T (minutes)</th>
+            <th>apps</th>
+            <th>features</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=7>5</td>
             <td>7</td>
-            <td rowspan=5>10</td>
+            <td rowspan=4>10</td>
+            <td>7</td>
+            <td rowspan=4>5</td>
+            <td rowspan=4>List of 101 apps</td>
+            <td rowspan=4>List of all 63 features</td>
         </tr>
         <tr>
+            <td>10</td>
             <td>10</td>
         </tr>
         <tr>
             <td>20</td>
+            <td>20</td>
         </tr>
         <tr>
             <td>30</td>
-        </tr>
-        <tr>
-            <td>10000</td>
-        </tr>
-        <tr>
-            <td rowspan=2>20</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td rowspan=4>20</td>
-            <td rowspan=4>10</td>
-        </tr>
-         <tr>
-            <td>3</td>
-        </tr>
-         <tr>
-            <td>2</td>
-        </tr>
-         <tr>
-            <td>1</td>
+            <td>30</td>
         </tr>
     </tbody>
 </table>
