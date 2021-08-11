@@ -22,6 +22,7 @@ As the image above, a big mobile traffic chunk (saved as a cvs file) is splitted
 * Overlap: Use for data augmentation.
 
 There are 5 set of hyper-parameters (Duration – T and Overlap):
+ |  |  |  |  |  
 ------------ | ------------- | ------------ | ------------- | ------------ | ------------- 
 Duration - T (minutes) | 5 | 4 | 3 | 2 | 1
 Overlap | 3 | 2 | 1 | 0 | 0
