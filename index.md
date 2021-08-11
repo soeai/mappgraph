@@ -21,6 +21,10 @@ As the image above, a big mobile traffic chunk (saved as a cvs file) is splitted
 * Duration (T): Length of each traffic chunk after generating.
 * Overlap: Use for data augmentation.
 
+There are 5 set of hyper-parameters (Duration – T and Overlap):
+Duration - T (minutes) | 5 | 4 | 3 | 2 | 1
+Overlap | 3 | 2 | 1 | 0 | 0
+
 ### Publications
 
 1. Thai-Dien Pham, Thien-Lac Ho, Tram Truong-Huu, Tien-Dung Cao, Hong-Linh Truong, "MAppGraph: Mobile-App Classification on Encrypted Network
