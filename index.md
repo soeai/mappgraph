@@ -121,7 +121,7 @@ List of hyper-parameters:
 * features: List of features of each node used to classify.
 
 ##### All experiments with MAppGraph presented in the paper:
-#####*1. Impact of Number of Graph Nodes used to Train Models*
+**_1. Impact of Number of Graph Nodes used to Train Models_**
 <table>
     <thead>
         <tr>
@@ -157,7 +157,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-*2.	Impact of Time Window Duration of Traffic Collection for Graph Construction*
+**_2. Impact of Time Window Duration of Traffic Collection for Graph Construction_**
 <table>
     <thead>
         <tr>
@@ -193,7 +193,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-*3.	Impact of Slice Duration on Cross-Correlation in Graph Construction*
+**_3. Impact of Slice Duration on Cross-Correlation in Graph Construction_**
 <table>
     <thead>
         <tr>
@@ -223,7 +223,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-*4.	Performance with and without using the IP Addresses in Feature Vectors*
+**_4. Performance with and without using the IP Addresses in Feature Vectors_**
 <table>
     <thead>
         <tr>
@@ -250,7 +250,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-*5.	Classification of Mobile Apps with Similar Functionalities*
+**_5. Classification of Mobile Apps with Similar Functionalities_**
 <table>
     <thead>
         <tr>
@@ -280,7 +280,7 @@ List of hyper-parameters:
 * List of 17 similar apps: *'diijam', 'myradio', 'spotify', 'nhaccuatui', 'soundcloud', 'sachnoiapp', 'truyenaudiosachnoiviet', 'voizfm', 'tunefm', 'radiofm', 'nhacvang', 'wesing', 'kaka', 'podcast_player', 'starmarker', 'zingmp3', 'truyenaudio'*
 * List of 17 different apps: *'zingmp3', 'fptplay', 'baomoi', 'nimotv', 'messenger', 'tiki', 'facebook', 'lienquan_mobile', 'quora', 'among_us', 'azar', 'tiktok', 'medoctruyen', 'weeboo', 'tinder', 'hago', 'bida'*
 
-*6.	Performance with Different Number of Apps*
+**_6. Performance with Different Number of Apps_**
 
 <table>
     <thead>
