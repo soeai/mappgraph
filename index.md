@@ -44,6 +44,15 @@ Because there are 5 set of parameters, we will have 5 files *‘train_test_info.
 
 ![GitHub Logo](/images/train_test.png)
 
+#### 3. Generating graphs from traffic chunks
+
+Running notebook *“generating_graphs.ipynb”* to convert all traffic chunks into graphs and save all of the graphs in 2 folder train_graphs and test_graphs (training and testing samples are determined by *‘train_test_info.json’*).
+
+There are two more hyper-parameters we need to input in the notebook before generating graphs. (N and window t). Each set of hyper-parameters (N, t) will also produce different set of graphs. 
+
+The combination of all parameters we use to run experiments:
+
+
 ### Publications
 
 1. Thai-Dien Pham, Thien-Lac Ho, Tram Truong-Huu, Tien-Dung Cao, Hong-Linh Truong, "MAppGraph: Mobile-App Classification on Encrypted Network
