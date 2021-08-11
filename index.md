@@ -12,7 +12,9 @@ The mobile traffic is saved in folder named *source* as csv files. Inside this f
 
 ### Guide
 
-#### A. Generate mobile traffic chunks with the same length
+#### 1. Generate mobile traffic chunks with the same length
+
+![GitHub Logo](/images/splitting_chunks.png)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
