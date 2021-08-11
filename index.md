@@ -64,7 +64,7 @@ The combination of all parameters we use to run experiments:
         <tr>
             <td rowspan=7>5</td>
             <td>7</td>
-            <td rowspan=4>10</td>
+            <td rowspan=5>10</td>
         </tr>
         <tr>
             <td>10</td>
