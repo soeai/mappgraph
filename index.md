@@ -114,11 +114,13 @@ There are 6 hyper-parameters we need to choose before running the notebook. Each
 
 List of hyper-parameters:
 * N: The maximum nodes kept to build a graph.
-* t: time slide, used to compute weight between 2 nodes.
+* t: Time slide, used to compute weight between 2 nodes.
 * k: A hyper-parameter defined in GNN architecture.
 * T: Duration of mobile traffic used to generate a graph.
 * apps: List of apps we want to classify.
 * features: List of features of each node used to classify.
+
+All experiments with MAppGraph presented in the paper
 
 
 ### Publications
