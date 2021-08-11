@@ -33,6 +33,22 @@ Running notebook *“generating_samples.ipynb”* to create the mobile traffic c
 
 For each set of hyper-paramters, there is a folder named samples that contain the mobile traffic chunks. 
 
+#### 2. Train- test split
+
+Running notebook *“generating_train_test.ipynb”* to split the data into training and testing data. The training size is 0.8. For each app, there is 0.8 of samples for training and 0.2 for testing. After running the notebook, the information of training and testing sampls is saved in a json file *“train_test_info.json”*
+
+The structure of a json file:
+
+{
+app1: (list of filenames of training samples, list of filenames of testing samples),
+app2: …
+… 
+}
+
+Because there are 5 set of parameters, we will have 5 files *‘train_test_info.json’*. They are saved as image below.
+
+
+
 ### Publications
 
 1. Thai-Dien Pham, Thien-Lac Ho, Tram Truong-Huu, Tien-Dung Cao, Hong-Linh Truong, "MAppGraph: Mobile-App Classification on Encrypted Network
