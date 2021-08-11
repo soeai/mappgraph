@@ -102,6 +102,10 @@ The combination of all parameters we use to run experiments:
     </tbody>
 </table>
 
+The graphs are saved in the structure as below:
+
+![GitHub Logo](/images/graphs.png)
+
 ### Publications
 
 1. Thai-Dien Pham, Thien-Lac Ho, Tram Truong-Huu, Tien-Dung Cao, Hong-Linh Truong, "MAppGraph: Mobile-App Classification on Encrypted Network
