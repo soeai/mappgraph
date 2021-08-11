@@ -58,7 +58,7 @@ Running notebook *“generating_samples.ipynb”* to create the mobile traffic c
 
 ![GitHub Logo](/images/samples.png)
 
-For each set of hyper-paramters, there is a folder named samples that contain the mobile traffic chunks. 
+For each set of hyper-paramters, there is a folder named *samples* that contain the mobile traffic chunks. 
 
 #### 2. Train-test split
 
