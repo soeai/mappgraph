@@ -4,7 +4,8 @@ This page introduces the work of the Encrypted Network Traffic Classification us
 
 ### Data
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We collect mobile traffic for 101 mobile apps. For each app, the number of times that we collect is about 30 hours.
+Sources folder contains all mobile traffic as csv files. Duration of mobile traffic in different files are different (min: 4.664 minutes, max: 465.7 minutes, mean: 101.573 minutes).
 
 ### Guide
 
