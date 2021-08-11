@@ -27,6 +27,12 @@ Hyper-parameters  | set1 | set2 | set3 | set4 | set5
 Duration - T (minutes) | 5 | 4 | 3 | 2 | 1
 Overlap | 3 | 2 | 1 | 0 | 0
 
+Running notebook *“generating_samples.ipynb”* to create the mobile traffic chunks with the same length. 
+
+For each set of hyper-paramters, there is a folder that contain the chunks. We need to input a set of hyper-parameters (duration, overlap) at the beginning of the notebook.
+After running the notebook with 5 set of hyper-parameters, the result will be saved as the image below:
+
+
 ### Publications
 
 1. Thai-Dien Pham, Thien-Lac Ho, Tram Truong-Huu, Tien-Dung Cao, Hong-Linh Truong, "MAppGraph: Mobile-App Classification on Encrypted Network
