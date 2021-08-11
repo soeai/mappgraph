@@ -85,6 +85,20 @@ The combination of all parameters we use to run experiments:
         <tr>
             <td>1</td>
         </tr>
+        <tr>
+            <td>4</td>
+            <td rowspan=4>20</td>
+            <td rowspan=4>10</td>
+        </tr>
+         <tr>
+            <td>3</td>
+        </tr>
+         <tr>
+            <td>2</td>
+        </tr>
+         <tr>
+            <td>1</td>
+        </tr>
     </tbody>
 </table>
 
