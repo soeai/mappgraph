@@ -27,6 +27,37 @@ Hyper-parameters  | set1 | set2 | set3 | set4 | set5
 Duration - T (minutes) | 5 | 4 | 3 | 2 | 1
 Overlap | 3 | 2 | 1 | 0 | 0
 
+<table>
+    <thead>
+        <tr>
+            <th>Hyper-parameters</th>
+            <th>set1</th>
+            <th>set2</th>
+            <th>set3</th>
+            <th>set4</th>
+            <th>set5</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Duration - T (minutes)</td>
+            <td>5</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Overlap (minutes)</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </tbody>
+</table>
+
 Running notebook *“generating_samples.ipynb”* to create the mobile traffic chunks with the same length. We need to input a set of hyper-parameters (duration, overlap) at the beginning of the notebook. After running the notebook with 5 set of hyper-parameters, the result will be saved as the image below:
 
 ![GitHub Logo](/images/samples.png)
