@@ -175,8 +175,8 @@ List of hyper-parameters:
             <td rowspan=5>10</td>
             <td rowspan=5>10</td>
             <td>5</td>
-            <td rowspan=4>List of 101 apps</td>
-            <td rowspan=4>List of all 63 features</td>
+            <td rowspan=5>List of 101 apps</td>
+            <td rowspan=5>List of all 63 features</td>
         </tr>
         <tr>
             <td>4</td>
