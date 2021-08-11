@@ -16,7 +16,10 @@ The mobile traffic is saved in folder named *source* as csv files. Inside this f
 
 ![GitHub Logo](/images/splitting_chunks.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+As the image above, a big mobile traffic chunk (saved as a cvs file) is splitted into many small chunks with the same length. There are two hyper-paramters here:
+
+* Duration (T): Length of each traffic chunk after generating.
+* Overlap: Use for data augmentation.
 
 ### Publications
 
