@@ -62,19 +62,28 @@ The combination of all parameters we use to run experiments:
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
+            <td rowspan=7>5</td>
+            <td>7</td>
+            <td rowspan=4>10</td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
+            <td>10</td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
+            <td>20</td>
         </tr>
         <tr>
-            <td>L3 Name D</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td rowspan=2>20</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
         </tr>
     </tbody>
 </table>
