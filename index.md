@@ -33,7 +33,7 @@ Running notebook *“generating_samples.ipynb”* to create the mobile traffic c
 
 For each set of hyper-paramters, there is a folder named samples that contain the mobile traffic chunks. 
 
-#### 2. Train- test split
+#### 2. Train-test split
 
 Running notebook *“generating_train_test.ipynb”* to split the data into training and testing data. The training size is 0.8. For each app, there is 0.8 of samples for training and 0.2 for testing. After running the notebook, the information of training and testing sampls is saved in a json file *“train_test_info.json”*
 
@@ -55,9 +55,9 @@ The combination of all parameters we use to run experiments:
 <table>
     <thead>
         <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
+            <th>Duration-T (minutes)</th>
+            <th>N</th>
+            <th>t (seconds)</th>
         </tr>
     </thead>
     <tbody>
