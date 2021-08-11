@@ -1,6 +1,6 @@
 ## Introduction
 
-This page introduces the work of the Encrypted Network Traffic Classification using Deep Learning project from School of Engineering, Tan Tao University. 
+This page introduces the work of the Encrypted Network Traffic Classification using Deep Learning project from School of Engineering, Tan Tao University. In this project, we develop a method for processing network traffic and generating graphs with node features and edge weights that better represent the communication behavior of mobile apps. After that, DGCNN model is used to learn the communication behavior of mobile apps from a large number of graphs. This model achieves very high performance in mobile-app classification.
 
 ### Data
 
