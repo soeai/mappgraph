@@ -106,6 +106,21 @@ The graphs are saved in the structure as below:
 
 ![GitHub Logo](/images/graphs.png)
 
+#### 4. Running experiments
+
+So far, we already have graphs generated for all parameters (N and T). Next step is running notebook *“train_GNN.ipynb”* to train the Graph Neural Network and do prediction on the testing dataset.
+
+There are 6 hyper-parameters we need to choose before running the notebook. Each set of hyper-parameters will correspond to one experiment.
+
+List of hyper-parameters:
+* N: The maximum nodes kept to build a graph.
+* t: time slide, used to compute weight between 2 nodes.
+* k: A hyper-parameter defined in GNN architecture.
+* T: Duration of mobile traffic used to generate a graph.
+* apps: List of apps we want to classify.
+* features: List of features of each node used to classify.
+
+
 ### Publications
 
 1. Thai-Dien Pham, Thien-Lac Ho, Tram Truong-Huu, Tien-Dung Cao, Hong-Linh Truong, "MAppGraph: Mobile-App Classification on Encrypted Network
