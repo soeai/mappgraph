@@ -52,6 +52,10 @@ There are two more hyper-parameters we need to input in the notebook before gene
 
 The combination of all parameters we use to run experiments:
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+ | Content in the second column
 
 ### Publications
 
