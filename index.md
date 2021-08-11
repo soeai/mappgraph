@@ -121,7 +121,7 @@ List of hyper-parameters:
 * features: List of features of each node used to classify.
 
 ##### All experiments with MAppGraph presented in the paper:
-*1. Impact of Number of Graph Nodes used to Train Models*
+#####*1. Impact of Number of Graph Nodes used to Train Models*
 <table>
     <thead>
         <tr>
