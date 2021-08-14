@@ -14,6 +14,20 @@ The mobile traffic is saved in a folder named *source* as csv files. Inside this
 
 #### 1. Generate mobile traffic chunks with the same length
 
+```
+app
+└── screens
+    └── App
+        └── screens
+            ├── Admin
+            │   └── screens
+            │       ├── Reports
+            │       └── Users
+            └── Course
+                └── screens
+                    └── Assignments
+```
+
 ![GitHub Logo](/images/splitting_chunks.png)
 
 As the image above, a big mobile traffic chunk (saved as a cvs file) is splitted into many small chunks with the same length. There are two hyper-paramters here:
