@@ -133,7 +133,7 @@ The graphs are saved in the structure as below:
 
 ![GitHub Logo](/images/graphs.png)
 
-All graphs of one app with a specific set of parameters are saved in 2 csv files (features.csv and weights.csv). There is a column named *graph_id* to distinguish between different graphs in both two files.
+All graphs of one app with a specific set of parameters are saved in 2 csv files (features.csv and weights.csv). In both two files, there is a column named *graph_id* to distinguish between different graphs.
 
 #### 4. Running experiments
 
