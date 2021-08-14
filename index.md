@@ -364,8 +364,9 @@ List of hyper-parameters:
 * The list of 10, 20, 30, 40, 50, 60, 70, 80, 90, 101 apps can be found in [apps_list.txt](https://github.com/soeai/MAppGraph/blob/gh-pages/apps_list.txt).
 * The list of apps is chosen randomly from 101 apps.
 
-**_Note_**: In the senario that we want to classify all 101 apps in the dataset with T = 5 minutes, the other optimal hyper-parameters are N = 20, k = 10, t = 10s (all features of node are used). The graphs are already generated for this set of hyper-parameters and saved in https://github.com/soeai/MAppGraph. In the config setting part of the notebook *"train_GNN.ipynb"*, the default hyper-parameters are for this senario. If you want to run other experiments, you need to follow all steps in this guide section. If you just want to run this best senario, you can run *"train_GNN.ipynb"* with the default config setting.
-
+**_Note_**: 
+* In the senario that we want to classify all 101 apps in the dataset with T = 5 minutes, the other optimal hyper-parameters are N = 20, k = 10, t = 10s (all features of node are used). The graphs are already generated for this set of hyper-parameters and saved in [data](https://github.com/soeai/MAppGraph/data). In the config setting part of the notebook *"train_GNN.ipynb"*, the default hyper-parameters are for this senario.
+* If you want to run other experiments, you need to follow all steps in this guide section to generate data again and run the notebook *"train_GNN.ipynb"* with different config setting.
 
 ### Publications
 
