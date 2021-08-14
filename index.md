@@ -186,7 +186,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-**_2. Impact of Time Window Duration of Traffic Collection for Graph Construction_**
+##### **_2. Impact of Time Window Duration of Traffic Collection for Graph Construction_**
 <table>
     <thead>
         <tr>
@@ -222,7 +222,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-**_3. Impact of Slice Duration on Cross-Correlation in Graph Construction_**
+##### **_3. Impact of Slice Duration on Cross-Correlation in Graph Construction_**
 <table>
     <thead>
         <tr>
@@ -252,7 +252,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-**_4. Performance with and without using the IP Addresses in Feature Vectors_**
+##### **_4. Performance with and without using the IP Addresses in Feature Vectors_**
 <table>
     <thead>
         <tr>
@@ -279,7 +279,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-**_5. Classification of Mobile Apps with Similar Functionalities_**
+##### **_5. Classification of Mobile Apps with Similar Functionalities_**
 <table>
     <thead>
         <tr>
@@ -309,7 +309,7 @@ List of hyper-parameters:
 * List of 17 similar apps: *'diijam', 'myradio', 'spotify', 'nhaccuatui', 'soundcloud', 'sachnoiapp', 'truyenaudiosachnoiviet', 'voizfm', 'tunefm', 'radiofm', 'nhacvang', 'wesing', 'kaka', 'podcast_player', 'starmarker', 'zingmp3', 'truyenaudio'*
 * List of 17 different apps: *'zingmp3', 'fptplay', 'baomoi', 'nimotv', 'messenger', 'tiki', 'facebook', 'lienquan_mobile', 'quora', 'among_us', 'azar', 'tiktok', 'medoctruyen', 'weeboo', 'tinder', 'hago', 'bida'*
 
-**_6. Performance with Different Number of Apps_**
+##### **_6. Performance with Different Number of Apps_**
 
 <table>
     <thead>
