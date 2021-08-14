@@ -133,6 +133,8 @@ The graphs are saved in the structure as below:
 
 ![GitHub Logo](/images/graphs.png)
 
+All graphs of one app with a specific set of parameters are saved in 2 csv files (features.csv and weights.csv). There is a column named *graph_id* to distinguish between different graphs in both two files.
+
 #### 4. Running experiments
 
 So far, we already have graphs generated for all parameters (N and T). Next step is running notebook *“train_GNN.ipynb”* to train the Graph Neural Network and do prediction on the testing dataset.
