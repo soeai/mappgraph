@@ -8,7 +8,7 @@ Please [cite](#References) MAppGraph when using it in academic publications.
 MAppGraph introduces a method for processing network traffic and generating graphs with node features and edge weights that better represent the communication behavior of mobile apps. After that, DGCNN model is used to learn the communication behavior of mobile apps from a large number of graphs. This model achieves very high performance in mobile-app classification.
 
 ## Documentation
-We provide an extensive documentation including installation instructions and reference at [soeai.github.io/MAppGraph](https://soeai.github.io/MAppGraph/).
+We provide an extensive documentation including installation instructions and reference at [soeai.github.io/mappgraph](https://soeai.github.io/mappgraph/).
 
 ## References
 
