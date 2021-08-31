@@ -365,8 +365,8 @@ List of hyper-parameters:
 * The list of apps is chosen randomly from 101 apps. 
 
 ### Artifact Verification
-* Due to limitation of storage space, we only provide the processed datasets of two cases in Table 4 of the paper corresponding to T_window = 5 and 2. The other optimal hyper-parameters are N = 20, k = 10, t = 10s (all features of node are used). The number of classification app is 101. You can run the notebook *"train_GNN.ipynb"* (using Google Colab or GPU computer ) with the default configution of the hyper-parameters (T=5, N=20, k=20, t=10s) on [this data](https://github.com/soeai/MAppGraph/tree/gh-pages/data). 
-* For the second case (i.e., T=2, N=20, k=20, t=10s), please change the root_path to [data T2](https://github.com/soeai/MAppGraph/tree/gh-pages/data). as well as the parameter T = 2 in Config Seting section.
+* Due to limitation of storage space, we only provide the processed datasets of two cases in Table 4 of the paper corresponding to T_window = 5 and 2. The other optimal hyper-parameters are N = 20, k = 10, t = 10s (all features of node are used). The number of classification app is 101. You can run the notebook *"train_GNN.ipynb"* (using Google Colab or GPU computer ) with the default configution of the hyper-parameters (T=5, N=20, k=20, t=10s) on [DATA T5](https://github.com/soeai/MAppGraph/tree/gh-pages/data). 
+* For the second case (i.e., T=2, N=20, k=20, t=10s), please change the root_path to [DATA T2](https://github.com/soeai/MAppGraph/tree/gh-pages/data). as well as the parameter T = 2 in Config Seting section.
 * To run other experiments, you need to follow all steps in this guide section to generate data again and run the notebook *"train_GNN.ipynb"* with different config setting. Data is availabl in requested.
 
 ### Publications
