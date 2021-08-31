@@ -371,7 +371,7 @@ List of hyper-parameters:
 ### Publications
 
 1. Thai-Dien Pham, Thien-Lac Ho, Tram Truong-Huu, Tien-Dung Cao, Hong-Linh Truong, "MAppGraph: Mobile-App Classification on Encrypted Network
-Traffic using Deep Graph Convolution Neural Networks", submitted to ACSAC2021.
+Traffic using Deep Graph Convolution Neural Networks", Annual Computer Security Applications Conference - ACSAC'2021 (Accepted).
 
 ### Support or Contact
 
