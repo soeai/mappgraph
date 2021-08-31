@@ -362,11 +362,12 @@ List of hyper-parameters:
 </table>
 
 * The list of 10, 20, 30, 40, 50, 60, 70, 80, 90, 101 apps can be found in [apps_list.txt](https://github.com/soeai/MAppGraph/blob/gh-pages/apps_list.txt).
-* The list of apps is chosen randomly from 101 apps.
+* The list of apps is chosen randomly from 101 apps. 
 
-**_Note_**: 
-* In the senario that we want to classify all 101 apps in the dataset with T = 5 minutes, the other optimal hyper-parameters are N = 20, k = 10, t = 10s (all features of node are used). The graphs are already generated for this set of hyper-parameters and saved in [data](https://github.com/soeai/MAppGraph/tree/gh-pages/data). In the config setting part of the notebook *"train_GNN.ipynb"*, the default hyper-parameters are for this senario.
-* If you want to run other experiments, you need to follow all steps in this guide section to generate data again and run the notebook *"train_GNN.ipynb"* with different config setting.
+### Artifact Verification
+* Due to limitation of storage space, we only provide the processed datasets of two cases in Table 4 of the paper corresponding to T_window = 5 and 2. The other optimal hyper-parameters are N = 20, k = 10, t = 10s (all features of node are used). The number of classification app is 101. You can run the notebook *"train_GNN.ipynb"* (using Google Colab or GPU computer ) with the default configution of the hyper-parameters (T=5, N=20, k=20, t=10s) on [this data](https://github.com/soeai/MAppGraph/tree/gh-pages/data). 
+* For the second case (i.e., T=2, N=20, k=20, t=10s), please change the root_path to [data T2](https://github.com/soeai/MAppGraph/tree/gh-pages/data). as well as the parameter T = 2 in Config Seting section.
+* To run other experiments, you need to follow all steps in this guide section to generate data again and run the notebook *"train_GNN.ipynb"* with different config setting. Data is availabl in requested.
 
 ### Publications
 
