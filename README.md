@@ -11,5 +11,6 @@ MAppGraph introduces a method for processing network traffic and generating grap
 We provide an extensive documentation including installation instructions and reference at [soeai.github.io/MAppGraph](https://soeai.github.io/MAppGraph/).
 
 ## References
+Thai-Dien Pham, Thien-Lac Ho, Tram Truong-Huu, Tien-Dung Cao, Hong-Linh Truong, “MAppGraph: Mobile-App Classification on Encrypted Network Traffic using Deep Graph Convolution Neural Networks”, Annual Computer Security Applications Conference - ACSAC, December 6-10, 2021.
 
 ### Bibtex
