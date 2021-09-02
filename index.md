@@ -10,7 +10,7 @@ The mobile traffic is saved in a folder named *source* as csv files. Inside this
 
 ![GitHub Logo](/images/sources.png)
 
-### Instruction
+### Guide
 
 #### 1. Generate mobile traffic chunks with the same length
 
