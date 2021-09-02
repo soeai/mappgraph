@@ -1,6 +1,5 @@
 # MAppGraph
-Encrypted Network Traffic Classification using Deep Learning
-This repository contains the code for MAppGraph by the authors of the paper MAppGraph: Mobile-App Classification on Encrypted Network
+This repository contains the code of the paper MAppGraph: Mobile-App Classification on Encrypted Network
 Traffic using Deep Graph Convolution Neural Networks.
 Please [cite](#References) MAppGraph when using it in academic publications.
 
