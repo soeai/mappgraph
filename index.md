@@ -193,7 +193,7 @@ List of hyper-parameters:
             <th>N</th>
             <th>t (seconds)</th>
             <th>k</th>
-            <th>T (minutes)</th>
+            <th>T (minutes) - T${window} in Table 4</th>
             <th>apps</th>
             <th>features</th>
         </tr>
