@@ -6,7 +6,7 @@ This page introduces the work of the Encrypted Network Traffic Classification us
 
 We collect mobile traffic for 101 mobile apps. For each app, more than 30 hours of traffic is collected.
 
-The mobile traffic is saved in a folder named *source* as csv files. Inside this folder, there are 101 sub-folder. Each sub-folder represents for one app and contains the mobile traffic of that app. Duration of mobile traffic in different files is different (min: 4.664 minutes, max: 465.7 minutes, mean: 101.573 minutes). The structure of *source* folder is shown as below.
+The mobile traffic is saved in a folder named *source* as csv files. **The sise of this folder is around xx GB, therefore we cannot provide this dataset via github, it will be shared to specific email via Google Drive**. Inside this folder, there are 101 sub-folder. Each sub-folder represents for one app and contains the mobile traffic of that app. Duration of mobile traffic in different files is different (min: 4.664 minutes, max: 465.7 minutes, mean: 101.573 minutes). The structure of *source* folder is shown as below.
 
 ![GitHub Logo](/images/sources.png)
 
@@ -150,7 +150,7 @@ List of hyper-parameters:
 * features: List of features of each node used to classify.
 
 ##### All experiments with MAppGraph presented in the paper:
-##### **_1. Impact of Number of Graph Nodes used to Train Models_**
+##### **_1. Impact of Number of Graph Nodes used to Train Models_ (Figure 8)**
 <table>
     <thead>
         <tr>
@@ -186,7 +186,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-##### **_2. Impact of Time Window Duration of Traffic Collection for Graph Construction_**
+##### **_2. Impact of Time Window Duration of Traffic Collection for Graph Construction_ (Table 4)**
 <table>
     <thead>
         <tr>
@@ -222,7 +222,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-##### **_3. Impact of Slice Duration on Cross-Correlation in Graph Construction_**
+##### **_3. Impact of Slice Duration on Cross-Correlation in Graph Construction_ (Table 5)**
 <table>
     <thead>
         <tr>
@@ -252,7 +252,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-##### **_4. Performance with and without using the IP Addresses in Feature Vectors_**
+##### **_4. Performance with and without using the IP Addresses in Feature Vectors_ (Figure 9)**
 <table>
     <thead>
         <tr>
@@ -279,7 +279,7 @@ List of hyper-parameters:
     </tbody>
 </table>
 
-##### **_5. Classification of Mobile Apps with Similar Functionalities_**
+##### **_5. Classification of Mobile Apps with Similar Functionalities_ (Figure 10)**
 <table>
     <thead>
         <tr>
@@ -309,7 +309,7 @@ List of hyper-parameters:
 * List of 17 similar apps: *'diijam', 'myradio', 'spotify', 'nhaccuatui', 'soundcloud', 'sachnoiapp', 'truyenaudiosachnoiviet', 'voizfm', 'tunefm', 'radiofm', 'nhacvang', 'wesing', 'kaka', 'podcast_player', 'starmarker', 'zingmp3', 'truyenaudio'*
 * List of 17 different apps: *'zingmp3', 'fptplay', 'baomoi', 'nimotv', 'messenger', 'tiki', 'facebook', 'lienquan_mobile', 'quora', 'among_us', 'azar', 'tiktok', 'medoctruyen', 'weeboo', 'tinder', 'hago', 'bida'*
 
-##### **_6. Performance with Different Number of Apps_**
+##### **_6. Performance with Different Number of Apps_ (Figure 11)**
 
 <table>
     <thead>
@@ -365,9 +365,9 @@ List of hyper-parameters:
 * The list of apps is chosen randomly from 101 apps. 
 
 ### Artifact Verification
-* Due to limitation of storage space, we only provide the processed datasets of two cases in Table 4 of the paper corresponding to T_window = 5 and 2. The other optimal hyper-parameters are N = 20, k = 10, t = 10s (all features of node are used). The number of classification app is 101. You can run the notebook *"train_GNN.ipynb"* (using Google Colab or GPU computer ) with the default configution of the hyper-parameters (T=5, N=20, k=20, t=10s) on [DATA T5_3](https://github.com/soeai/MAppGraph/tree/gh-pages/data/5_3). 
+* Due to limitation of storage space of github, we only provide the processed datasets of two cases in Table 4 of the paper corresponding to T_window = 5 and 2. The other optimal hyper-parameters are N = 20, k = 10, t = 10s (all features of node are used). The number of classification app is 101. You can run the notebook *"train_GNN.ipynb"* (using Google Colab or GPU computer ) with the default configution of the hyper-parameters (T=5, N=20, k=20, t=10s) on [DATA T5_3](https://github.com/soeai/MAppGraph/tree/gh-pages/data/5_3). 
 * For the second case (i.e., T=2, N=20, k=20, t=10s), please change the parameter T = 2 as well as Overlap = 0 in Config Seting section to work with [DATA T2_0](https://github.com/soeai/MAppGraph/tree/gh-pages/data/2_0).
-* To run other experiments, you need to follow all steps in this guide section to generate data again and run the notebook *"train_GNN.ipynb"* with different config setting. Data is available if requested.
+* To run other experiments, you need to follow all steps in the guide section to generate data again and run the notebook *"train_GNN.ipynb"* with different config setting. Data is available if requested.
 
 ### Raw Data
 * The .pcap files are also provided in contact with individual agreement.
