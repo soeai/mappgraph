@@ -227,7 +227,7 @@ List of hyper-parameters:
     <thead>
         <tr>
             <th>N</th>
-            <th>t (seconds)</th>
+            <th>t (seconds) - t<sub>sclice</sub> in Table 5</th>
             <th>k</th>
             <th>T (minutes)</th>
             <th>apps</th>
