@@ -6,7 +6,7 @@ This page introduces the work of the Encrypted Network Traffic Classification us
 
 We collect mobile traffic for 101 mobile apps. For each app, more than 30 hours of traffic is collected.
 
-The mobile traffic is saved in a folder named *source* as csv files. **The size of this folder is around xx GB, therefore we cannot provide this dataset via github, it will be shared to specific email via Google Drive**. Inside this folder, there are 101 sub-folder. Each sub-folder represents for one app and contains the mobile traffic of that app. Duration of mobile traffic in different files is different (min: 4.664 minutes, max: 465.7 minutes, mean: 101.573 minutes). The structure of *source* folder is shown as below.
+The mobile traffic is saved in a folder named *source* as csv files. **The size of this folder is around 58.5GB, therefore we cannot provide this dataset via github, it will be shared to specific email via Google Drive**. Inside this folder, there are 101 sub-folder. Each sub-folder represents for one app and contains the mobile traffic of that app. Duration of mobile traffic in different files is different (min: 4.664 minutes, max: 465.7 minutes, mean: 101.573 minutes). The structure of *source* folder is shown as below.
 
 ![GitHub Logo](/images/sources.png)
 
