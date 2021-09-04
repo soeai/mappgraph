@@ -137,7 +137,7 @@ All graphs of one app with a specific set of parameters are saved in 2 csv files
 
 #### 4. Running experiments
 
-So far, we already have graphs generated for all parameters (N and T). Next step is running notebook *“train_GNN.ipynb”* to train the Graph Neural Network and do prediction on the testing dataset.
+So far, we already have graphs generated for all parameters (N and t<sub>slice</sub>). Next step is running notebook *“train_GNN.ipynb”* to train the Graph Neural Network and do prediction on the testing dataset.
 
 There are 6 hyper-parameters we need to choose before running the notebook. Each set of hyper-parameters will correspond to one experiment.
 
@@ -365,8 +365,8 @@ List of hyper-parameters:
 * The list of apps is chosen randomly from 101 apps. 
 
 ### Artifact Verification
-* Due to limitation of storage space of github, we only provide the processed datasets of two cases in Table 4 of the paper corresponding to T_window = 5 and 2. The other optimal hyper-parameters are N = 20, k = 10, t<sub>slice</sub> = 10s (all features of node are used). The number of classification app is 101. You can run the notebook *"train_GNN.ipynb"* (using Google Colab - around 5h per 150 epochs or GPU computer - depending on configuration) with the default configution of the hyper-parameters (T=5, N=20, k=20, t<sub>slice</sub>=10s) on [DATA T5_3](https://github.com/soeai/MAppGraph/tree/gh-pages/data/5_3). 
-* For the second case (i.e., T=2, N=20, k=20, t<sub>slice</sub>=10s), please change the parameter T = 2 as well as Overlap = 0 in Config Seting section to work with [DATA T2_0](https://github.com/soeai/MAppGraph/tree/gh-pages/data/2_0).
+* Due to limitation of storage space of github, we only provide the processed datasets of two cases in Table 4 of the paper corresponding to T<sub>window</sub> = 5 and 2. The other optimal hyper-parameters are N = 20, k = 10, t<sub>slice</sub> = 10s (all features of node are used). The number of classification app is 101. You can run the notebook *"train_GNN.ipynb"* (using Google Colab - around 5h per 150 epochs or GPU computer - depending on configuration) with the default configution of the hyper-parameters (T<sub>window</sub>=5, N=20, k=20, t<sub>slice</sub>=10s) on [DATA T5_3](https://github.com/soeai/MAppGraph/tree/gh-pages/data/5_3). 
+* For the second case (i.e., T<sub>window</sub>=2, N=20, k=20, t<sub>slice</sub>=10s), please change the parameter T<sub>window</sub> = 2 as well as Overlap = 0 in Config Seting section to work with [DATA T2_0](https://github.com/soeai/MAppGraph/tree/gh-pages/data/2_0).
 * To run other experiments, you need to follow all steps in the guide section to generate data again and run the notebook *"train_GNN.ipynb"* with different config setting. Data is available if requested.
 
 ### Raw Data
