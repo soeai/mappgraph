@@ -16,12 +16,12 @@ The mobile traffic is saved in a folder named *source* as csv files. **The size 
 
 ![GitHub Logo](/images/splitting_chunks.png)
 
-As the image above, a big mobile traffic chunk (saved as a cvs file) is splitted into many small chunks with the same length. There are two hyper-paramters here:
+As the image above, a big mobile traffic chunk (saved as a CSV file) is splitted into many small chunks with the same length. There are two hyper-paramters here:
 
 * Duration (T<sub>window</sub>): Length of each traffic chunk after generating.
-* Overlap: Use for data augmentation.
+* Overlapping window: Use to increase the frequency of sample collection and classification. If the duration T<sub>window</sub> is short enough, we do not need to have overlapping.
 
-There are 5 set of hyper-parameters (Duration – T<sub>window</sub> and Overlap):
+There are 5 set of hyper-parameters (Duration – T<sub>window</sub> and Overlapping window):
 
 <table>
     <thead>
@@ -44,7 +44,7 @@ There are 5 set of hyper-parameters (Duration – T<sub>window</sub> and Overlap
             <td>1</td>
         </tr>
         <tr>
-            <td>Overlap (minutes)</td>
+            <td>Overlapping window (minutes)</td>
             <td>3</td>
             <td>2</td>
             <td>1</td>
@@ -54,28 +54,28 @@ There are 5 set of hyper-parameters (Duration – T<sub>window</sub> and Overlap
     </tbody>
 </table>
 
-Running notebook *“generating_samples.ipynb”* to create the mobile traffic chunks with the same length. We need to input a set of hyper-parameters (duration, overlap) at the beginning of the notebook. After running the notebook with 5 set of hyper-parameters, the result will be saved as the image below:
+Running notebook *“generating_samples.ipynb”* to create the mobile traffic chunks with the same length. We need to provide input as a set of hyper-parameters (duration T<sub>window</sub>, overlapping window) at the beginning of the notebook. After running the notebook with 5 sets of hyper-parameters, the result will be saved as shown in the image below:
 
 ![GitHub Logo](/images/samples.png)
 
-For each set of hyper-paramters, there is a folder named *samples* that contain the mobile traffic chunks. 
+For each set of hyper-paramters, there is a folder named *samples* that contains the mobile traffic chunks. 
 
 #### 2. Train-test split
 
-Running notebook *“generating_train_test.ipynb”* to split the data into training and testing data. The training size is 0.8. For each app, there is 0.8 of samples for training and 0.2 for testing. After running the notebook, the information of training and testing sampls is saved in a json file *“train_test_info.json”*
+Running notebook *“generating_train_test.ipynb”* to split the data into training and testing data. In our experiment, the split ratio is 80:20 for training set and test set, respectively. After running the notebook, the information of training and testing samples is saved in a json file *“train_test_info.json”*
 
 The structure of a json file:
 { app1: (list of filenames of training samples, list of filenames of testing samples), app2: …… }
 
-Because there are 5 set of parameters, we will have 5 files *‘train_test_info.json’*. They are saved as image below.
+Because there are 5 sets of parameters, we will have 5 files *‘train_test_info.json’*. They are saved as shown in the image below.
 
 ![GitHub Logo](/images/train_test.png)
 
 #### 3. Generating graphs from traffic chunks
 
-Running notebook *“generating_graphs.ipynb”* to convert all traffic chunks into graphs and save all of the graphs in 2 folder train_graphs and test_graphs (training and testing samples are determined by *‘train_test_info.json’*).
+Running notebook *“generating_graphs.ipynb”* to convert all traffic chunks into graphs and save all of the graphs in 2 folders train_graphs and test_graphs (training and testing samples are determined by *‘train_test_info.json’*).
 
-There are two more hyper-parameters we need to input in the notebook before generating graphs. (N and t<sub>slice</sub>). Each set of hyper-parameters (N, t<sub>slice</sub>) will also produce different set of graphs. 
+There are two more hyper-parameters we need to input in the notebook before generating graphs. (N and t<sub>slice</sub>). Each set of hyper-parameters (N, t<sub>slice</sub>) will also produce different set of graphs. N is the number of graph nodes that will be used to train the DGCNN model.
 
 The combination of all parameters we use to run experiments:
 
@@ -133,16 +133,16 @@ The graphs are saved in the structure as below:
 
 ![GitHub Logo](/images/graphs.png)
 
-All graphs of one app with a specific set of parameters are saved in 2 csv files (features.csv and weights.csv). In both two files, there is a column named *graph_id* to distinguish between different graphs.
+All graphs of one app with a specific set of parameters are saved in 2 CSV files (features.csv and weights.csv). In both files, there is a column named *graph_id* to distinguish between different graphs.
 
 #### 4. Running experiments
 
-So far, we already have graphs generated for all parameters (N and t<sub>slice</sub>). Next step is running notebook *“train_GNN.ipynb”* to train the Graph Neural Network and do prediction on the testing dataset.
+Given graphs generated with different parameters (N and t<sub>slice</sub>). Next step is running notebook *“train_GNN.ipynb”* to train the DGCNN model and do prediction on the testing dataset.
 
 There are 6 hyper-parameters we need to choose before running the notebook. Each set of hyper-parameters will correspond to one experiment.
 
 List of hyper-parameters:
-* N: The maximum nodes kept to build a graph.
+* N: The maximum nodes kept to build a graph as mentioned above. 
 * t<sub>slice</sub>: Slide duration, used to compute weight between 2 nodes.
 * k: A hyper-parameter defined in GNN architecture.
 * T<sub>window</sub>: Duration of mobile traffic used to generate a graph.
