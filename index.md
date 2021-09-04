@@ -144,7 +144,7 @@ There are 6 hyper-parameters we need to choose before running the notebook. Each
 List of hyper-parameters:
 * N: The maximum nodes kept to build a graph as mentioned above. 
 * t<sub>slice</sub>: Slide duration, used to compute weight between 2 nodes.
-* k: A hyper-parameter defined in GNN architecture.
+* k: A hyper-parameter defined in DGCNN architecture, which defines the number of graph nodes whose features are used to construct the feature vector before the fully-connected layers. To simplify, we set k=N.
 * T<sub>window</sub>: Duration of mobile traffic used to generate a graph.
 * apps: List of apps we want to classify.
 * features: List of features of each node used to classify.
