@@ -1,12 +1,12 @@
 ### Introduction
 
-This page introduces the work of the Encrypted Network Traffic Classification using Deep Learning project from School of Engineering, Tan Tao University. In this project, we develop a method for processing network traffic and generating graphs with node features and edge weights that better represent the communication behavior of mobile apps. After that, DGCNN model is used to learn the communication behavior of mobile apps from a large number of graphs. This model achieves very high performance in mobile-app classification.
+This page presents the implementation and experiment details of our work on Encrypted Network Traffic Classification using Deep Learning carried out at the School of Engineering, Tan Tao University. In this work, we develop a method for processing network traffic and generating graphs with node features and edge weights that better represent the communication behavior of mobile apps. A Deep Graph Convolution Neural Network (DGCNN) model has been designed to learn the communication behavior of mobile apps from a large number of graphs, thus being able to classify mobile apps. We also provide the description of the adoption of existing methods used for performance comparison (i.e., FlowPrint and AppScanner).
 
 ### Data
 
 We collect mobile traffic for 101 mobile apps. For each app, more than 30 hours of traffic is collected.
 
-The mobile traffic is saved in a folder named *source* as csv files. **The size of this folder is around 58.5GB, therefore we cannot provide this dataset via github, it will be shared to specific email via Google Drive**. Inside this folder, there are 101 sub-folder. Each sub-folder represents for one app and contains the mobile traffic of that app. Duration of mobile traffic in different files is different (min: 4.664 minutes, max: 465.7 minutes, mean: 101.573 minutes). The structure of *source* folder is shown as below.
+The mobile traffic is saved in a folder named *source* as csv files. **The size of this folder is around 58.5GB, therefore we cannot provide the entire dataset via GitHub. It will be shared to specific email via Google Drive if requested (only for academic research purposes)**. Nevertheless, a portion of dataset is available in this repository for the purpose of verification and testing. Inside this folder, there are 101 sub-folder. Each sub-folder contains the data of one app. Duration of mobile traffic catures in different files is different (min: 4.664 minutes, max: 465.7 minutes, mean: 101.573 minutes). The structure of *source* folder is shown as below.
 
 ![GitHub Logo](/images/sources.png)
 
