@@ -18,10 +18,10 @@ The mobile traffic is saved in a folder named *source* as csv files. **The size 
 
 As the image above, a big mobile traffic chunk (saved as a cvs file) is splitted into many small chunks with the same length. There are two hyper-paramters here:
 
-* Duration (T): Length of each traffic chunk after generating.
+* Duration (T<sub>window</sub>): Length of each traffic chunk after generating.
 * Overlap: Use for data augmentation.
 
-There are 5 set of hyper-parameters (Duration – T and Overlap):
+There are 5 set of hyper-parameters (Duration – T<sub>window</sub> and Overlap):
 
 <table>
     <thead>
@@ -36,7 +36,7 @@ There are 5 set of hyper-parameters (Duration – T and Overlap):
     </thead>
     <tbody>
         <tr>
-            <td>Duration - T (minutes)</td>
+            <td>Duration - T<sub>window</sub> (minutes)</td>
             <td>5</td>
             <td>4</td>
             <td>3</td>
@@ -82,7 +82,7 @@ The combination of all parameters we use to run experiments:
 <table>
     <thead>
         <tr>
-            <th>Duration-T (minutes)</th>
+            <th>Duration-T<sub>window</sub> (minutes)</th>
             <th>N</th>
             <th>t (seconds)</th>
         </tr>
@@ -157,7 +157,7 @@ List of hyper-parameters:
             <th>N</th>
             <th>t (seconds)</th>
             <th>k</th>
-            <th>T (minutes)</th>
+            <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
             <th>features</th>
         </tr>
@@ -193,7 +193,7 @@ List of hyper-parameters:
             <th>N</th>
             <th>t (seconds)</th>
             <th>k</th>
-            <th>T (minutes) - T<sub>window</sub> in Table 4</th>
+            <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
             <th>features</th>
         </tr>
@@ -229,7 +229,7 @@ List of hyper-parameters:
             <th>N</th>
             <th>t (seconds) - t<sub>slice</sub> in Table 5</th>
             <th>k</th>
-            <th>T (minutes)</th>
+            <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
             <th>features</th>
         </tr>
@@ -259,7 +259,7 @@ List of hyper-parameters:
             <th>N</th>
             <th>t (seconds)</th>
             <th>k</th>
-            <th>T (minutes)</th>
+            <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
             <th>features</th>
         </tr>
@@ -286,7 +286,7 @@ List of hyper-parameters:
             <th>N</th>
             <th>t (seconds)</th>
             <th>k</th>
-            <th>T (minutes)</th>
+            <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
             <th>features</th>
         </tr>
@@ -317,7 +317,7 @@ List of hyper-parameters:
             <th>N</th>
             <th>t (seconds)</th>
             <th>k</th>
-            <th>T (minutes)</th>
+            <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
             <th>features</th>
         </tr>
