@@ -145,7 +145,7 @@ List of hyper-parameters:
 * N: The maximum nodes kept to build a graph.
 * t: Slide duration, used to compute weight between 2 nodes.
 * k: A hyper-parameter defined in GNN architecture.
-* T: Duration of mobile traffic used to generate a graph.
+* T<sub>window</sub>: Duration of mobile traffic used to generate a graph.
 * apps: List of apps we want to classify.
 * features: List of features of each node used to classify.
 
