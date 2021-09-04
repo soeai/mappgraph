@@ -84,7 +84,7 @@ The combination of all parameters we use to run experiments:
         <tr>
             <th>Duration-T<sub>window</sub> (minutes)</th>
             <th>N</th>
-            <th>t (seconds)</th>
+            <th>t<sub>slice</sub> (seconds)</th>
         </tr>
     </thead>
     <tbody>
@@ -143,7 +143,7 @@ There are 6 hyper-parameters we need to choose before running the notebook. Each
 
 List of hyper-parameters:
 * N: The maximum nodes kept to build a graph.
-* t: Slide duration, used to compute weight between 2 nodes.
+* t<sub>slice</sub>: Slide duration, used to compute weight between 2 nodes.
 * k: A hyper-parameter defined in GNN architecture.
 * T<sub>window</sub>: Duration of mobile traffic used to generate a graph.
 * apps: List of apps we want to classify.
@@ -155,7 +155,7 @@ List of hyper-parameters:
     <thead>
         <tr>
             <th>N</th>
-            <th>t (seconds)</th>
+            <th>t<sub>slice</sub> (seconds)</th>
             <th>k</th>
             <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
@@ -191,7 +191,7 @@ List of hyper-parameters:
     <thead>
         <tr>
             <th>N</th>
-            <th>t (seconds)</th>
+            <th>t<sub>slice</sub> (seconds)</th>
             <th>k</th>
             <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
@@ -257,7 +257,7 @@ List of hyper-parameters:
     <thead>
         <tr>
             <th>N</th>
-            <th>t (seconds)</th>
+            <th>t<sub>slice</sub> (seconds)</th>
             <th>k</th>
             <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
@@ -284,7 +284,7 @@ List of hyper-parameters:
     <thead>
         <tr>
             <th>N</th>
-            <th>t (seconds)</th>
+            <th>t<sub>slice</sub> (seconds)</th>
             <th>k</th>
             <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
@@ -315,7 +315,7 @@ List of hyper-parameters:
     <thead>
         <tr>
             <th>N</th>
-            <th>t (seconds)</th>
+            <th>t<sub>slice</sub> (seconds)</th>
             <th>k</th>
             <th>T<sub>window</sub> (minutes)</th>
             <th>apps</th>
