@@ -8,13 +8,13 @@ We collect mobile traffic for 101 mobile apps. For each app, more than 30 hours 
 
 The mobile traffic is saved in a folder named *source* as csv files. **The size of this folder is around 58.5GB, therefore we cannot provide the entire dataset via GitHub. It will be shared to specific email via Google Drive if requested (only for academic research purposes)**. Nevertheless, a portion of dataset is available in this repository for the purpose of verification and testing. Inside this folder, there are 101 sub-folder. Each sub-folder contains the data of one app. Duration of mobile traffic catures in different files is different (min: 4.664 minutes, max: 465.7 minutes, mean: 101.573 minutes). The structure of *source* folder is shown as below.
 
-![GitHub Logo](/images/sources.png)
+![GitHub Logo](/mappgraph/images/sources.png)
 
 ### Guide
 
 #### 1. Generate mobile traffic chunks with the same length
 
-![GitHub Logo](/images/splitting_chunks.png)
+![GitHub Logo](/mappgraph/images/splitting_chunks.png)
 
 As the image above, a big mobile traffic chunk (saved as a CSV file) is splitted into many small chunks with the same length. There are two hyper-paramters here:
 
@@ -56,7 +56,7 @@ There are 5 set of hyper-parameters (Duration – T<sub>window</sub> and Overlap
 
 Running notebook *“generating_samples.ipynb”* to create the mobile traffic chunks with the same length. We need to provide input as a set of hyper-parameters (duration T<sub>window</sub>, overlapping window) at the beginning of the notebook. After running the notebook with 5 sets of hyper-parameters, the result will be saved as shown in the image below:
 
-![GitHub Logo](/images/samples.png)
+![GitHub Logo](/mappgraph/images/samples.png)
 
 For each set of hyper-paramters, there is a folder named *samples* that contains the mobile traffic chunks. 
 
@@ -69,7 +69,7 @@ The structure of a json file:
 
 Because there are 5 sets of parameters, we will have 5 files *‘train_test_info.json’*. They are saved as shown in the image below.
 
-![GitHub Logo](/images/train_test.png)
+![GitHub Logo](/mappgraph/images/train_test.png)
 
 #### 3. Generating graphs from traffic chunks
 
@@ -131,7 +131,7 @@ The combination of all parameters we use to run experiments:
 
 The graphs are saved in the structure as below:
 
-![GitHub Logo](/images/graphs.png)
+![GitHub Logo](/mappgraph/images/graphs.png)
 
 All graphs of one app with a specific set of parameters are saved in 2 CSV files (features.csv and weights.csv). In both files, there is a column named *graph_id* to distinguish between different graphs.
 
