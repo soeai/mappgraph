@@ -1,0 +1,5 @@
+pandas==1.1.5
+numpy==1.19.5
+stellargraph==1.2.1
+sklearn==0.22.2.post1
+tensorflow==2.6.0
