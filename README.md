@@ -15,18 +15,13 @@ If you are interested in the Enhanced FlowPrint approach and/or the Enhanced App
 `Thai-Dien Pham, Thien-Lac Ho, Tram Truong-Huu, Tien-Dung Cao, Hong-Linh Truong, “MAppGraph: Mobile-App Classification on Encrypted Network Traffic using Deep Graph Convolution Neural Networks”, Annual Computer Security Applications Conference - ACSAC, December 6-10, 2021.`
 
 ### Bibtex
-
+```
 @INPROCEEDINGS{MAppGraph2021,
-
 author={Pham, Thai-Dien and Ho, Thien-Lac and Truong-Huu, Tram and Cao, Tien-Dung and Truong, Hong-Linh},
-
 booktitle={Annual Computer Security Applications Conference (ACSAC 2021)}, 
-
 title={{MAppGraph: Mobile-App Classification on Encrypted Network Traffic using Deep Graph Convolution Neural Networks}}, 
-
 year={2021},
-
 month = {December},
-
 address={Virtual Conference}
 }
+```
