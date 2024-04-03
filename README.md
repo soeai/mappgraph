@@ -7,7 +7,7 @@ Please [cite](#References) MAppGraph when using it in academic publications.
 MAppGraph introduces a method for processing network traffic and generating graphs with node features and edge weights that better represent the communication behavior of mobile apps. A Deep Graph Convolution Neural Network (DGCNN) model has been designed and developed to learn the communication behavior of mobile apps from a large number of graphs, thus being able to classify mobile apps.
 
 ## Documentation
-We provide an extensive documentation including instructions for running the code at [MAppGraph](https://soeai.github.io/MAppGraph/).
+We provide an extensive documentation including instructions for running the code at [MAppGraph](https://soeai.github.io/mappgraph/).
 
 <!-- If you are interested in the Enhanced FlowPrint approach and/or the Enhanced AppScanner approach, you can find the documents and source code at [Enhanced_Flowprint](https://github.com/hothienlac/Enhanced_Flowprint) and/or [Enhanced_Appscanner](https://github.com/dienthaipham103/Enhanced_Appscanner) -->
 
