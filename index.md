@@ -1,6 +1,6 @@
 ### Introduction
 
-This page presents the implementation and experiment details of our work on Encrypted Network Traffic Classification using Deep Learning carried out at the School of Engineering, Tan Tao University under the Grant No. TTU.RS.19.102.023. In this work, we develop a method for processing network traffic and generating graphs with node features and edge weights that better represent the communication behavior of mobile apps. A Deep Graph Convolution Neural Network (DGCNN) model has been designed to learn the communication behavior of mobile apps from a large number of graphs, thus being able to classify mobile apps. We also provide the description of the adoption of existing methods used for performance comparison (i.e., FlowPrint and AppScanner).
+This page presents the implementation and experiment details of our work on Encrypted Network Traffic Classification using Deep Learning carried out at the School of Information Technology, Tan Tao University under the Grant No. TTU.RS.19.102.023. In this work, we develop a method for processing network traffic and generating graphs with node features and edge weights that better represent the communication behavior of mobile apps. A Deep Graph Convolution Neural Network (DGCNN) model has been designed to learn the communication behavior of mobile apps from a large number of graphs, thus being able to classify mobile apps. We also provide the description of the adoption of existing methods used for performance comparison (i.e., FlowPrint and AppScanner).
 
 ### Data
 
